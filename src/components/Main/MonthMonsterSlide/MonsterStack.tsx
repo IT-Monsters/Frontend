@@ -55,7 +55,10 @@ export const MonsterStack = ({
     Photoshop: <AdobePoIcon className={iConCss} />,
   };
   return (
-    <li className="bg-white mr-[-13px]" style={{ zIndex: `${20 - index}` }}>
+    <li
+      className="bg-white mr-[-13px] rounded-[50%]"
+      style={{ zIndex: `${20 - index}` }}
+    >
       {stackList[stack]}
     </li>
   );
