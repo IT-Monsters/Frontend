@@ -53,7 +53,7 @@ IT몬스터즈만 믿으라구!😈
 | ------ | ------------------------------- | --------- |
 | 노진서 | https://github.com/bennoholik   | Front-end |
 | 원중희 | https://github.com/wndgml13     | Front-end |
-| 황태영 | https://github.com/dongkeon-lee | Front-end |
+| 황태영 | https://github.com/hty0525      | Front-end |
 | 전지만 | https://github.com/Camof1ow     | Back-end  |
 | 김진무 | https://github.com/kimjinmoo91  | Back-end  |
 | 이원규 | https://github.com/oneqrhee     | Back-end  |
