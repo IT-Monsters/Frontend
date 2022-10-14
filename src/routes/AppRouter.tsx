@@ -40,7 +40,7 @@ const client = Stomp.over(sock);
 client.heartbeat.outgoing = 20000;
 client.heartbeat.incoming = 20000;
 client.connect(usertoken, f => f);
-client.debug = f => f;
+// client.debug = f => f;
 
 const AppRouter = () => {
   const token = getCookieToken();
