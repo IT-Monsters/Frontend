@@ -12,36 +12,36 @@ export const useAlert = ({ client }: { client: Stomp.Client }) => {
 
   const { data, isSuccess } = UserInfoApi.getUserInfo();
 
+  const id = data?.id;
+
   const [tgVal, tg] = useRecoilState(onAlertState);
 
   const setAlertContent = useSetRecoilState(alertState);
 
   useEffect(() => {
-    if (isSuccess && data) {
-      const id = data.id;
-      alertConnect(id);
+    if (isSuccess && id !== undefined) {
+      alertConnect();
     }
 
     return () => {
-      if (isSuccess && data) {
-        const id = data.id;
-        alertDisconnect(id);
-      }
+      alertDisconnect();
     };
   }, [isSuccess]);
 
   // 채팅 연결
-  const alertConnect = (id: number) => {
-    if (client.connected) {
-      alertSub(id);
+  const alertConnect = () => {
+    if (client.connected && id !== undefined) {
+      alertSub();
     } else {
       client.connect(usertoken, () => {
-        alertSub(id);
+        if (id !== undefined) {
+          alertSub();
+        }
       });
     }
   };
 
-  const alertSub = useCallback((id: number) => {
+  const alertSub = useCallback(() => {
     client.subscribe(
       `/sub/members/${id}`,
       data => {
@@ -51,9 +51,9 @@ export const useAlert = ({ client }: { client: Stomp.Client }) => {
       },
       { id: `alert-${id}` },
     );
-  }, []);
+  }, [id]);
 
-  const alertDisconnect = (id: number) => {
+  const alertDisconnect = () => {
     if (client !== null) {
       if (client.connected) client.unsubscribe(`${id}`);
     }
