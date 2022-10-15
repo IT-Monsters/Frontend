@@ -71,7 +71,7 @@ IT몬스터즈만 믿으라구!😈
 
     **TypeScript**
     
-    - 코드 작성시 형변환에 관련한 오류를 명확한 타입 지정을 통해 미리 예방 가능하므로 생산성의 향상을 도모하기 위해 도입하였습니다
+    - 코드 작성시 형변환에 관련한 오류를 명확한 타입 지정을 통해 미리 예방 가능하므로 생산성의 향상을 도모하기 위해 도입하였습니다.
     
     **ReactQuery**
     
@@ -85,9 +85,12 @@ IT몬스터즈만 믿으라구!😈
     
     - 코드의 가독성과 적응 하는데에 시간이 걸리긴 하였지만, Tailwind CSS의 Utility-First 컨셉 덕분에  편리하고 쉽고 빠르게 원하는 디자인을 개발할수 있어서 도입하게 되었습니다.
 
+
+## 🛠 트러블 슈팅
+
 ## ****🛠주요기술****
 
-#### Front-end
+### Front-end
 
 <div align=center> 
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=ffffff">
