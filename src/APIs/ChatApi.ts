@@ -80,6 +80,8 @@ export const chatApi = {
 //   return { content, nextPage: pageParam + 1, last };
 // };
 
+// 아무거나
+
 interface IchatInifite {
   content: chatData[];
   nextPage: number;
