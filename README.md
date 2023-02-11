@@ -6,6 +6,7 @@
 ## 🏠 [Home Page](https://it-monsters.co.kr/) / [Youtube](https://youtu.be/iyCul1aOxAE)
 - 사이드 프로젝트  플랫폼!
 
+<br>
 
 ## 🎃 서비스 소개
 
@@ -22,16 +23,25 @@
 
 IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 떠나보세요🏃‍♂️🏃
  
+<br>
+
 ## 🗓️ 프로젝트 기간
 2022년 8월 28일 ~2022 년 10월 8일
 
-## 우리팀 소개
+<br>
+
+## 👔 우리팀 소개
 
 **`Front-End`** 
-- 노진서(Vice Leader) 원중희 황태영
+- 노진서(Vice Leader) [@bennoholik](https://github.com/bennoholik)
+- 원중희 [@wndgml13](https://github.com/wndgml13)
+- 황태영 [@hty0525](https://github.com/hty0525)
   
 **`Back-End`**
-- 전지만(Project Leader) 이원규 이동규 김진무
+- 전지만(Project Leader) [@Camof1ow](https://github.com/Camof1ow)
+- 이원규 [@oneqrhee](https://github.com/oneqrhee)
+- 이동규 [@dds1q](https://github.com/dds1q)
+- 김진무 [@kimjinmoo91](https://github.com/kimjinmoo91)
 
 **`UI-UX Design`**
 - 윤정아
@@ -39,45 +49,14 @@ IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 �
 **`Marketing Design`**
 - 김소정
 
-
-
-## ****⭐️ 팀 구성****
-<div> 
-
-| 이름   | 팀원 깃허브                    | 포지션    |
-| ------ | ------------------------------ | --------- |
-| 노진서 | https://github.com/bennoholik  | Front-end |
-| 원중희 | https://github.com/wndgml13    | Front-end |
-| 황태영 | https://github.com/hty0525     | Front-end |
-| 전지만 | https://github.com/Camof1ow    | Back-end  |
-| 김진무 | https://github.com/kimjinmoo91 | Back-end  |
-| 이원규 | https://github.com/oneqrhee    | Back-end  |
-| 이동규 | https://github.com/dds1q       | Back-end  |
-| 윤정아 |                                | UI/UX     |
-
-</div>
+<br>
 
 ## 🛠 기술스택
-<div > 
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=ffffff">
-  <img src="https://img.shields.io/badge/react-282C34?style=for-the-badge&logo=react&logoColor=61DAFB">
-<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=PWA&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white">
-    <img src="https://img.shields.io/badge/Recoil-2E77BC?style=for-the-badge&logo=Recoil&logoColor=white"> 
+![TechStack](./readme/techStack.png)
 
-  <br>
-   <img src="https://img.shields.io/badge/GitHub%20Actions-232F3E?style=for-the-badge&logo=GitHubActions&logoColor=2088FF"/>
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-  <br/>
- <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
- <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
-<img src="https://img.shields.io/badge/CloudFront-D05C4B?style=for-the-badge&logo=Amazon AWS&logoColor=white">
-</div>
+<br>
 
-<br/>
-
-## 🛠기술 스택 도입 배경
+## 🔑 기술 스택 도입 배경
 
 **TypeScript**
 
@@ -97,7 +76,7 @@ IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 �
 
 <br>
 
-## 🛠 트러블 슈팅
+## ⚙️ 트러블 슈팅
 1. **✔️WEB socket 호출 이슈**
 
       채팅방에서 채팅입력창에 입력할때마다 웹소켓이 계속 호출되는 이슈
