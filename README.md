@@ -3,13 +3,12 @@
 
 # IT Monsters
 
-## 🏠 [Home Page](https://it-monsters.co.kr/) / [Youtube](https://youtu.be/iyCul1aOxAE)
-- 사이드 프로젝트  플랫폼!
-
 <br>
 
 ## 🎃 서비스 소개
 
+
+  
 아무나 매칭되는 랜덤 매칭에 지겨우신 프로젝트 팀!
 소통이 안되는 팀원에 지쳐버린 프로젝트 팀!
 - 필요한 능력을 가진 참가자를 게시글을 통해 모집해보세요! 
@@ -22,7 +21,15 @@
 - 마음에 드는 모집 게시글을 저장하고 참여하고 완료한 프로젝트는 기록으로 남길수 있어요!
 
 IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 떠나보세요🏃‍♂️🏃
- 
+
+
+<br>
+
+## ✈️ 바로가기
+
+📍[Home Page](https://it-monsters.co.kr/)<br>
+📍[Youtube](https://youtu.be/iyCul1aOxAE)
+
 <br>
 
 ## 🗓️ 프로젝트 기간
@@ -51,16 +58,38 @@ IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 �
 
 <br>
 
-## 💼 업무 분담
-| 이름   | 담당                                                                                                                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 노진서 | 1. 로그인, 회원가입, 아이디찾기, 소셜로그인 (네이버, 카카오, 구글), 반응형,  검색 필터링, 전체 검색<br> 2. 게시글 작성, 알림,  마이페이지 조회 및 수정, 유저 정보 페이지 조회, 실시간 채팅 <br> 3. 배포 환경구축 (Github Action, AWS s3, CloudFront, Route 53) |
-| 원중희 | 게시글 상세 페이지 CRUD                                                                                                                                                                                                                                        |
-| 황태영 | 메인페이지, 프로젝트 레이아웃                                                                                                                                                                                                                                  |
+## ⌨️ 기술스택
+
+### FrontEnd
+
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![Recoil](https://img.shields.io/badge/Recoil-007af4.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FscXVlXzEiIGRhdGEtbmFtZT0iQ2FscXVlIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI1NS4yMSA2MjMuOTEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDp3aGl0ZX08L3N0eWxlPjwvZGVmcz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Im03NC42MiAyNzcuNDYgMS4yNC0uMTMgMzQuNzgtMy4yOC01My40Ny01OC42NkE5Ni40NyA5Ni40NyAwIDAgMSAzMiAxNTAuM0gzYTEyNS4zIDEyNS4zIDAgMCAwIDMyLjggODQuNTdaTTE3Ny4xMyAzNDdsLTM2IDMuNCA1My4zMiA1OC41MUE5Ni40MSA5Ni40MSAwIDAgMSAyMTkuNjMgNDc0aDI4LjkyYTEyNS4yOCAxMjUuMjggMCAwIDAtMzIuNzYtODQuNTdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjUzLjY5IDIzMS42OGMtNi4zMy0zMS4zLTMwLjg5LTU0LjA5LTYyLjU3LTU4LjA3bC02LjM1LS43OWE0OS42MSA0OS42MSAwIDAgMS00My4zNS00OS4xM3YtMjBhNTIuNzUgNTIuNzUgMCAxIDAtMjguOTEtLjM2djIwLjM4YTc4LjU2IDc4LjU2IDAgMCAwIDY4LjY1IDc3LjgybDYuMzYuOGMyMy4yNCAyLjkyIDM0Ljc4IDIwIDM3LjgzIDM1LjFzLS45MyAzNS4zMi0yMS4yMiA0N2E3My44MSA3My44MSAwIDAgMS0zMC4wNiA5LjYybC05NS42NiA5YTEwMi40NSAxMDIuNDUgMCAwIDAtNDEuOCAxMy4zOEM5IDMzMi40NS00LjgxIDM2MyAxLjUyIDM5NC4yOXMzMC44OSA1NC4wOCA2Mi41NyA1OC4wNmw2LjM1LjhhNDkuNiA0OS42IDAgMCAxIDQzLjM1IDQ5LjEydjE4YTUyLjc1IDUyLjc1IDAgMSAwIDI4LjkxLjI2di0xOC4yNmE3OC41NSA3OC41NSAwIDAgMC02OC42NS03Ny44MWwtNi4zNi0uOGMtMjMuMjQtMi45Mi0zNC43OC0yMC4wNS0zNy44My0zNS4xMXMuOTMtMzUuMzIgMjEuMjItNDdhNzMuNjggNzMuNjggMCAwIDEgMzAuMDYtOS42M2w5NS42Ni05YTEwMi40NSAxMDIuNDUgMCAwIDAgNDEuOC0xMy4zOGMyNy42NS0xNi4wMiA0MS40LTQ2LjU0IDM1LjA5LTc3Ljg2WiIvPjwvc3ZnPg==&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Axios](https://camo.githubusercontent.com/a228c9d2e94f10ecf6dd0d64d9a94072e6c8cdf3d2152a5907b3942487d9cceb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6178696f732d3632333646463f7374796c653d666f722d7468652d6261646765266c6f676f3d6178696f73266c6f676f436f6c6f723d7768697465)
+![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+### Deploy
+
+![GithubAction](https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=GitHubActions&logoColor=2088FF")
+![AWS](https://img.shields.io/badge/AWS%20S3-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=FF9A00)
+![cloudFront](https://img.shields.io/badge/AWS%20CloudFront-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=FF9A00)
+![Route53](https://img.shields.io/badge/AWS%20Route%2053-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=FF9A00)
+
+
+### Tools
+
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <br>
 
-## 🛠 기술스택
+## 🛠 프로젝트 아키텍처
 ![TechStack](./readme/techStack.png)
 
 <br>
@@ -148,8 +177,16 @@ IT몬스터즈와 함께 팀을 꾸리고 프로젝트의 세계로 모험을 �
 
 - 제목으로 모집 게시글 검색이 가능합니다.
 
+<br>
 
+## 💼 업무 분담
+| 이름   | 담당                                                                                                                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 노진서 | 1. 로그인, 회원가입, 아이디찾기, 소셜로그인 (네이버, 카카오, 구글), 반응형,  검색 필터링, 전체 검색<br> 2. 게시글 작성, 알림,  마이페이지 조회 및 수정, 유저 정보 페이지 조회, 실시간 채팅 <br> 3. 배포 환경구축 (Github Action, AWS s3, CloudFront, Route 53) |
+| 원중희 | 게시글 상세 페이지 CRUD                                                                                                                                                                                                                                        |
+| 황태영 | 메인페이지, 프로젝트 레이아웃                                                                                                                                                                                                                                  |
 
+<br>
 
 
 
